@@ -1,0 +1,50 @@
+*{
+	font-family: "Arial", Helvetica, sans-serif;
+}
+
+h1 {
+	font-size: 32px;
+	color: hotpink;
+	font-style: oblique;
+}
+
+h2 {
+	font-size:
+}
+
+.button {
+	padding: 5px;
+	color: white;
+	background-color: #4CEAF9;
+	box-shadow: 1px 2px #B5B5B5;
+	border: .5px solid #B5B5B5;
+	font-style: oblique;
+	font-weight: bold;
+
+}
+	
+	.button:hover {
+		color:#B5B5B5;
+		background-color: white;
+		box-shadow: 1px 2px #4CEAF9;
+		border: .5px solid #4CEAF9
+	}
+	
+	.button:active {
+		color:white;
+		background-color: #B5B5B5;
+	}
+	
+#guessValue {
+	color:purple;
+	border: 2px solid pink;
+	height: 25px;
+	box-shadow: 1px 2px #B5B5B5;
+}
+
+#numGenerator {
+	visibility: hidden;
+}
+
+
+	
